@@ -11,9 +11,7 @@ import TheFooter from "./components/TheFooter.vue";
       <TheHeader />
     </el-header>
     <el-container>
-      <el-aside width="200px">
-        <TheMenu />
-      </el-aside>
+      <el-aside width="200px"> </el-aside>
       <el-main>
         <RouterView />
       </el-main>
@@ -28,5 +26,18 @@ import TheFooter from "./components/TheFooter.vue";
 .app {
   height: 100vh;
   width: 100vw;
+  .el-header {
+    background-color: var(--el-color-primary-light-7);
+    padding: 0;
+  }
+  .el-aside {
+    background-color: var(--el-color-success-light-3);
+  }
+  .el-main {
+    background-color: var(--el-color-info-light-5);
+  }
+  .el-footer {
+    background-color: var(--el-color-primary-light-5);
+  }
 }
 </style>

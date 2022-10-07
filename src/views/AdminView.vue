@@ -1,5 +1,7 @@
 <template>
-  <el-menu mode="horizontal" default-active="" @select=""> </el-menu>
+  <div>
+    <h1>Admin View</h1>
+  </div>
 </template>
 
 <script setup lang="ts"></script>
